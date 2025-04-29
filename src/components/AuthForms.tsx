@@ -36,18 +36,13 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
     
     try {
       await login(email, password);
-      // toast({
-      //   title: "Welcome back!",
-      //   description: "You have successfully logged in.",
-      // });
+      toast({
+        title: "Welcome back!",
+        description: "You have successfully logged in.",
+      });
       
       if (onSuccess) {
         onSuccess();
-        toast({
-          title: "Welcome back!",
-          description: "You have successfully logged in.",
-        });
-
       } else {
         navigate('/dashboard');
       }
@@ -127,7 +122,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
           </div>
         </div>
         
-        {/* <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between">
           <div className="flex items-center">
             <input
               id="remember-me"
@@ -143,7 +138,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
           <a href="#" className="text-sm font-medium text-quantum-500 hover:text-quantum-600">
             Forgot password?
           </a>
-        </div> */}
+        </div>
         
         <Button
           type="submit"

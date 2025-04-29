@@ -3,8 +3,8 @@ import { ResourceType, Topic, Paper, Resource, VideoTutorial } from '../types';
 export const topics: Topic[] = [
   {
     id: '1',
-    title: 'Machine Learning',
-    slug: 'machine-learning',
+    title: 'Machine Learning', 
+    slug: 'machine-learning', 
     shortDescription: 'Algorithms that improve automatically through experience',
     description: 'Machine learning is a field of inquiry devoted to understanding and building methods that "learn" – that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence.',
     overview:'Machine learning enables computers to automatically discover patterns in data and make predictions without being explicitly programmed. It is widely used in various domains, including healthcare, finance, robotics, and more.',

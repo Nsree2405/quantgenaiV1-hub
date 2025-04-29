@@ -1,7 +1,0 @@
-install dependencies
-
-npm install express mongoose cors dotenv
-
-then to run backend 
-
-node server.js

@@ -14,14 +14,14 @@ interface AuthContextType {
   logout: () => void;
   signup: (email: string, password: string, name?: string) => Promise<void>; // Make async
   loading: boolean; // Add loading state
-  error: string | null;
-  isAuthenticated: boolean; // Add error state
+  error: string | null; // Add error state
+  isAuthenticated: boolean ;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Define the backend API base URL
-const API_URL = 'http://localhost:5001/api/auth'; // Adjust port if needed
+const API_URL = '/api/auth'; // Adjust port if needed
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
@@ -62,7 +62,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       const loggedInUser: User = data.user;
       setUser(loggedInUser);
       localStorage.setItem('user', JSON.stringify(loggedInUser)); // Persist user
-      console.log("Login successful:", data.message);
+
     } catch (err: any) {
       console.error("Login failed:", err);
       setError(err.message || 'Login failed. Please check your credentials.');
@@ -113,7 +113,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, login, logout, signup, loading, error,isAuthenticated: !!user }}>
+    <AuthContext.Provider value={{ user, login, logout, signup, loading, error ,isAuthenticated: !!user }}>
       {children}
     </AuthContext.Provider>
   );
@@ -124,9 +124,5 @@ export const useAuth = () => {
   if (context === undefined) {
     throw new Error('useAuth must be used within an AuthProvider');
   }
-  
-  
-  
-  
   return context;
 };
