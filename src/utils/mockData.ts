@@ -57,7 +57,7 @@ export const topics: Topic[] = [
         title: 'XGBoost: A Scalable Tree Boosting System',
         authors: 'Tianqi Chen, Carlos Guestrin',
         year: '2016',
-        link: 'https://arxiv.org/abs/1603.02754',
+        link: 'https://arxiv.org/pdf/1603.02754',
         abstract: 'This paper describes the XGBoost system, which is a highly effective and widely used gradient boosting implementation.'
       },
       {
@@ -65,7 +65,7 @@ export const topics: Topic[] = [
         title: 'The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks',
         authors: 'Jonathan Frankle, Michael Carbin',
         year: '2019',
-        link: 'https://arxiv.org/abs/1803.03635',
+        link: 'https://arxiv.org/pdf/1803.03635',
         abstract: 'This paper introduces the concept that within large neural networks exist smaller subnetworks that can be trained to similar performance.'
       },
       {
@@ -73,7 +73,7 @@ export const topics: Topic[] = [
         title: 'Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks',
         authors: 'Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun',
         year: '2016',
-        link: 'https://arxiv.org/abs/1506.01497',
+        link: 'https://arxiv.org/pdf/1506.01497',
         abstract: 'A seminal paper in the field of object detection, introducing a faster and more accurate approach for detecting objects in images.'
       }
     ],
@@ -110,77 +110,21 @@ export const topics: Topic[] = [
         id: '2', //courses
         title: 'Advanced ' + 'Machine Learning' + ' Concepts',
         description: 'Deep dive into advanced topics and applications',
-        link: 'https://example.com/advanced',
+        link: 'https://developers.google.com/machine-learning/crash-course',
         type: ResourceType.Course
       },
       {
         id: '3', // videos 
         title: 'Machine Learning' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Machine Learning',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://youtu.be/JxgmHe2NyeY?si=2DF4k21NHNLNpQaI',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Machine Learning' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Machine Learning' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Machine Learning' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Machine Learning' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Machine Learning' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Machine Learning' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Machine Learning' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Machine Learning' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Machine Learning' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=NWONeJKn6kc',
         type: ResourceType.Video
       }
     ],
@@ -251,7 +195,7 @@ export const topics: Topic[] = [
         title: 'Generative Adversarial Nets',
         authors: 'Ian J. Goodfellow et al.',
         year: '2014',
-        link: 'https://arxiv.org/abs/1406.2661',
+        link: 'https://arxiv.org/pdf/1406.2661',
         abstract: 'This paper introduces GANs, which create a framework for training generative models through an adversarial process.'
       },
       {
@@ -259,7 +203,7 @@ export const topics: Topic[] = [
         title: 'Adam: A Method for Stochastic Optimization',
         authors: 'Diederik P. Kingma, Jimmy Ba',
         year: '2015',
-        link: 'https://arxiv.org/abs/1412.6980',
+        link: 'https://arxiv.org/pdf/1412.6980',
         abstract: 'This paper presents Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions.'
       },
       {
@@ -275,7 +219,7 @@ export const topics: Topic[] = [
         title: 'U-Net: Convolutional Networks for Biomedical Image Segmentation',
         authors: 'Olaf Ronneberger, Philipp Fischer, Thomas Brox',
         year: '2015',
-        link: 'https://arxiv.org/abs/1505.04597',
+        link: 'https://arxiv.org/pdf/1505.04597',
         abstract: 'This paper introduces the U-Net architecture, which has become a standard for image segmentation tasks, especially in medical imaging.'
       }
     ],
@@ -312,77 +256,21 @@ export const topics: Topic[] = [
         id: '2',
         title: 'Advanced ' + 'Deep Learning' + ' Concepts',
         description: 'Deep dive into advanced topics and applications',
-        link: 'https://example.com/advanced',
+        link: 'https://techdevguide.withgoogle.com/resources/topics/deep-learning/?no-filter=true#!',
         type: ResourceType.Course
       },
       {
         id: '3',
         title: 'Deep Learning' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Deep Learning',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=d2kxUVwWWwU',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Deep Learning' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Deep Learning' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Deep Learning' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Deep Learning' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Deep Learning' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Deep Learning' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Deep Learning' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Deep Learning' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Deep Learning' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=ErnWZxJovaM',
         type: ResourceType.Video
       }
     ],
@@ -438,7 +326,7 @@ export const topics: Topic[] = [
         title: 'Attention Is All You Need',
         authors: 'A. Vaswani et al.',
         year: '2017',
-        link: 'https://arxiv.org/abs/1706.03762',
+        link: 'https://arxiv.org/pdf/1706.03762',
         abstract: 'Introduces the Transformer architecture which revolutionized NLP.'
       },
       {
@@ -454,7 +342,7 @@ export const topics: Topic[] = [
         title: 'GPT-3: Language Models are Few-Shot Learners',
         authors: 'Tom B. Brown et al.',
         year: '2020',
-        link: 'https://arxiv.org/abs/2005.14165',
+        link: 'https://arxiv.org/pdf/2005.14165',
         abstract: 'Introduces GPT-3, demonstrating that language models can perform tasks without task-specific training examples.'
       },
       {
@@ -462,7 +350,7 @@ export const topics: Topic[] = [
         title: 'Distributed Representations of Words and Phrases and their Compositionality',
         authors: 'Tomas Mikolov et al.',
         year: '2013',
-        link: 'https://arxiv.org/abs/1310.4546',
+        link: 'https://arxiv.org/pdf/1310.4546',
         abstract: 'Introduces word2vec, a method for learning high-quality word vectors from large datasets.'
       },
       {
@@ -478,7 +366,7 @@ export const topics: Topic[] = [
         title: 'Sequence to Sequence Learning with Neural Networks',
         authors: 'Ilya Sutskever, Oriol Vinyals, Quoc V. Le',
         year: '2014',
-        link: 'https://arxiv.org/abs/1409.3215',
+        link: 'https://arxiv.org/pdf/1409.3215',
         abstract: 'Introduces a general sequence learning approach using LSTM networks that can map sequences to sequences.'
       }
     ],
@@ -501,79 +389,24 @@ export const topics: Topic[] = [
         id: '2',
         title: 'Advanced ' + 'Natural Language Processing' + ' Concepts',
         description: 'Deep dive into advanced topics and applications',
-        link: 'https://example.com/advanced',
+        link: 'https://www.cloudskillsboost.google/course_templates/40',
         type: ResourceType.Course
       },
       {
         id: '3',
         title: 'Natural Language Processing' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Natural Language Processing',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=ENLEjGozrio',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Natural Language Processing' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Natural Language Processing' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Natural Language Processing' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Natural Language Processing' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Natural Language Processing' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Natural Language Processing' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Natural Language Processing' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Natural Language Processing' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Natural Language Processing' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=M7SWr5xObkA',
         type: ResourceType.Video
       }
+
     ],
     videoTutorials: [
       {
@@ -634,7 +467,7 @@ export const topics: Topic[] = [
         title: 'Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection',
         authors: 'S. Levine et al.',
         year: '2016',
-        link: ' https://arxiv.org/abs/1603.02199',
+        link: ' https://arxiv.org/pdf/1603.02199',
         abstract: 'Using deep RL to teach robots fine motor skills.'
       },
       {
@@ -642,7 +475,7 @@ export const topics: Topic[] = [
         title: 'VisuoMotor Control: Learning to Manipulate by Seeing and Feeling',
         authors: 'J. Bohg et al.',
         year: '2019',
-        link: 'https://arxiv.org/abs/1901.11103',
+        link: 'https://arxiv.org/pdf/1901.11103',
         abstract: 'This paper explores how visual and tactile perception can be integrated for robotic manipulation.'
       },
       {
@@ -650,7 +483,7 @@ export const topics: Topic[] = [
         title: 'Dexterous Manipulation with Deep Reinforcement Learning: Efficient, General, and Low-Cost',
         authors: 'A. Kumar et al.',
         year: '2021',
-        link: 'https://arxiv.org/abs/2004.00704',
+        link: 'https://arxiv.org/pdf/2004.00704',
         abstract: 'Demonstrates how robots can learn dexterous manipulation skills through reinforcement learning.'
       },
       {
@@ -689,77 +522,21 @@ export const topics: Topic[] = [
         id: '2',
         title: 'Advanced ' + 'Robotics' + ' Concepts',
         description: 'Deep dive into advanced topics and applications',
-        link: 'https://example.com/advanced',
+        link: 'https://onlinecourses.nptel.ac.in/noc19_me74/preview',
         type: ResourceType.Course
       },
       {
         id: '3',
         title: 'Robotics' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Robotics',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=v7c6raCx_cY',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Robotics' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Robotics' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Robotics' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Robotics' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Robotics' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Robotics' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Robotics' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Robotics' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Robotics' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=htjRUL3neMg',
         type: ResourceType.Video
       }
     ],
@@ -814,7 +591,7 @@ export const topics: Topic[] = [
         title: 'Learning Deep Sensorimotor Policies for Vision-based Autonomous Drone Racing',
         authors: 'Jiawei Fu et al.',
         year: '2014',
-        link: 'https://arxiv.org/abs/2210.14985',
+        link: 'https://arxiv.org/pdf/2210.14985',
         abstract: 'Overview of vision-based navigation systems for drones.'
       },
       {
@@ -830,7 +607,7 @@ export const topics: Topic[] = [
         title: 'Autonomous Drone Racing: A Survey',
         authors: 'Philipp Foehn et al.',
         year: '2021',
-        link: 'https://arxiv.org/abs/2103.08624',
+        link: 'https://arxiv.org/pdf/2103.08624',
         abstract: 'This survey reviews the state of the art in autonomous drone racing and identifies key research challenges.'
       },
       {
@@ -838,7 +615,7 @@ export const topics: Topic[] = [
         title: 'Deep Reinforcement Learning for Autonomous Drone Racing',
         authors: 'Yunlong Song et al.',
         year: '2021',
-        link: 'https://arxiv.org/abs/2103.08624',
+        link: 'https://arxiv.org/pdf/2103.08624',
         abstract: 'This paper explores reinforcement learning approaches for autonomous drone racing through challenging environments.'
       },
       {
@@ -854,7 +631,7 @@ export const topics: Topic[] = [
         title: 'Autonomous UAV Navigation Using Reinforcement Learning',
         authors: 'K. Kang, S. Belkhale, G. Kahn et al.',
         year: '2019',
-        link: 'https://arxiv.org/abs/1901.00533',
+        link: 'https://arxiv.org/pdf/1901.00533',
         abstract: 'This paper demonstrates how UAVs can learn navigation policies through reinforcement learning techniques.'
       }
     ],
@@ -870,77 +647,21 @@ export const topics: Topic[] = [
         id: '2',
         title: 'Advanced ' + 'Drones' + ' Concepts',
         description: 'Deep dive into advanced topics and applications',
-        link: 'https://example.com/advanced',
+        link: 'https://onlinecourses.nptel.ac.in/noc20_ae04/preview',
         type: ResourceType.Course
       },
       {
         id: '3',
         title: 'Drones' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Drones',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=xmHLiEw-GUU',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Drones' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Drones' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Drones' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Drones' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Drones' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Drones' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Drones' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Drones' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Drones' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=L73w5N0SLbw',
         type: ResourceType.Video
       }
     ],
@@ -1019,7 +740,7 @@ export const topics: Topic[] = [
         title: 'Quantum Error Correction for Beginners',
         authors: 'S. J. Devitt, K. Nemoto, W. J. Munro',
         year: '2013',
-        link: 'https://arxiv.org/abs/0905.2794',
+        link: 'https://arxiv.org/pdf/0905.2794',
         abstract: 'An introduction to quantum error correction, a critical component for practical quantum computing.'
       },
       {
@@ -1058,77 +779,21 @@ export const topics: Topic[] = [
         id: '2',
         title: 'Advanced ' + 'Quantum Computing' + ' Concepts',
         description: 'Deep dive into advanced topics and applications',
-        link: 'https://example.com/advanced',
+        link: 'https://onlinecourses.nptel.ac.in/noc21_cs103/preview',
         type: ResourceType.Course
       },
       {
         id: '3',
         title: 'Quantum Computing' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Quantum Computing',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=RQWpF2Gb-gU',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Quantum Computing' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Quantum Computing' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Quantum Computing' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Quantum Computing' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Quantum Computing' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Quantum Computing' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Quantum Computing' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Quantum Computing' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Quantum Computing' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=-1PsQIciMEc',
         type: ResourceType.Video
       }
     ],
@@ -1183,7 +848,7 @@ export const topics: Topic[] = [
         title: 'Generative Adversarial Networks',
         authors: 'Ian J. Goodfellow et al.',
         year: '2014',
-        link: 'https://arxiv.org/abs/1406.2661',
+        link: 'https://arxiv.org/pdf/1406.2661',
         abstract: 'The original paper introducing GANs, a framework for training generative models.'
       },
       {
@@ -1191,7 +856,7 @@ export const topics: Topic[] = [
         title: 'DALL·E 2: Hierarchical Text-Conditional Image Generation with CLIP Latents',
         authors: 'A. Ramesh et al.',
         year: '2022',
-        link: 'https://arxiv.org/abs/2204.06125',
+        link: 'https://arxiv.org/pdf/2204.06125',
         abstract: 'Research paper on DALL·E 2, a system for creating images from text descriptions.'
       },
       {
@@ -1199,7 +864,7 @@ export const topics: Topic[] = [
         title: 'High-Resolution Image Synthesis with Latent Diffusion Models',
         authors: 'Robin Rombach et al.',
         year: '2022',
-        link: 'https://arxiv.org/abs/2112.10752',
+        link: 'https://arxiv.org/pdf/2112.10752',
         abstract: 'This paper introduces Stable Diffusion, a latent diffusion model for high-resolution image synthesis.'
       },
       {
@@ -1207,7 +872,7 @@ export const topics: Topic[] = [
         title: 'StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks',
         authors: 'T. Karras, S. Laine, T. Aila',
         year: '2019',
-        link: 'https://arxiv.org/abs/1812.04948',
+        link: 'https://arxiv.org/pdf/1812.04948',
         abstract: 'This paper presents StyleGAN, a generative adversarial network that enables high-quality image generation with explicit control of different visual features.'
       },
       {
@@ -1223,7 +888,7 @@ export const topics: Topic[] = [
         title: 'MusicLM: Generating Music From Text',
         authors: 'Andrea Agostinelli et al.',
         year: '2023',
-        link: 'https://arxiv.org/abs/2301.11325',
+        link: 'https://arxiv.org/pdf/2301.11325',
         abstract: 'This paper presents a model for generating high-fidelity music from text descriptions, trained on a large dataset of music-text pairs.'
       }
     ],
@@ -1246,77 +911,21 @@ export const topics: Topic[] = [
         id: '2',
         title: 'Advanced ' + 'Generative AI' + ' Concepts',
         description: 'Deep dive into advanced topics and applications',
-        link: 'https://example.com/advanced',
+        link: 'https://www.cloudskillsboost.google/course_templates/536',
         type: ResourceType.Course
       },
       {
         id: '3',
         title: 'Generative AI' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Generative AI',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=nJ25yl34Uqw',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Generative AI' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Generative AI' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Generative AI' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Generative AI' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Generative AI' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Generative AI' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Generative AI' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Generative AI' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Generative AI' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=pSVk-5WemQ0',
         type: ResourceType.Video
       }
     ],
@@ -1371,7 +980,7 @@ export const topics: Topic[] = [
         title: 'Attention Is All You Need',
         authors: 'A. Vaswani et al.',
         year: '2017',
-        link: 'https://arxiv.org/abs/1706.03762',
+        link: 'https://arxiv.org/pdf/1706.03762',
         abstract: 'Introduces the Transformer architecture that forms the foundation of modern LLMs.'
       },
       {
@@ -1379,7 +988,7 @@ export const topics: Topic[] = [
         title: 'Training language models to follow instructions with human feedback',
         authors: 'Long Ouyang et al.',
         year: '2022',
-        link: 'https://arxiv.org/abs/2203.02155',
+        link: 'https://arxiv.org/pdf/2203.02155',
         abstract: 'Describes the RLHF technique used to align language models with human preferences.'
       },
       {
@@ -1387,7 +996,7 @@ export const topics: Topic[] = [
         title: 'GPT-4 Technical Report',
         authors: 'OpenAI',
         year: '2023',
-        link: 'https://arxiv.org/abs/2303.08774',
+        link: 'https://arxiv.org/pdf/2303.08774',
         abstract: 'Technical details on GPT-4, a large multimodal model capable of sophisticated reasoning across image and text inputs.'
       },
       {
@@ -1395,7 +1004,7 @@ export const topics: Topic[] = [
         title: 'Language Models are Few-Shot Learners',
         authors: 'Tom B. Brown et al.',
         year: '2020',
-        link: 'https://arxiv.org/abs/2005.14165',
+        link: 'https://arxiv.org/pdf/2005.14165',
         abstract: 'Introduces GPT-3, demonstrating that very large language models can perform tasks without task-specific training data.'
       },
       {
@@ -1403,7 +1012,7 @@ export const topics: Topic[] = [
         title: 'Constitutional AI: Harmlessness from AI Feedback',
         authors: 'Yuntao Bai et al.',
         year: '2022',
-        link: 'https://arxiv.org/abs/2212.08073',
+        link: 'https://arxiv.org/pdf/2212.08073',
         abstract: 'Introduces a method for training AI systems to be helpful, harmless, and honest without direct human feedback.'
       },
       {
@@ -1411,7 +1020,7 @@ export const topics: Topic[] = [
         title: 'Llama 2: Open Foundation and Fine-Tuned Chat Models',
         authors: 'Hugo Touvron et al.',
         year: '2023',
-        link: 'https://arxiv.org/abs/2307.09288',
+        link: 'https://arxiv.org/pdf/2307.09288',
         abstract: 'Presents Llama 2, an open-source large language model available for both research and commercial use.'
       }
     ],
@@ -1434,70 +1043,14 @@ export const topics: Topic[] = [
         id: '3',
         title: 'Large Language Models' + ' Fundamentals Video',
         description: 'Video tutorial covering the basics of ' + 'Large Language Models',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=7xTGNNLPyMI',
         type: ResourceType.Video
       },
       {
         id: '4',
         title: 'Advanced ' + 'Large Language Models' + ' Techniques Video',
         description: 'Deep dive into advanced concepts and applications',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '5',
-        title: 'Large Language Models' + ' Project Tutorial Video',
-        description: 'Build a complete project from scratch',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '6',
-        title: 'Large Language Models' + ' Best Practices Video',
-        description: 'Learn industry best practices and standards',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '7',
-        title: 'Large Language Models' + ' Case Studies Video',
-        description: 'Real-world applications and case studies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '8',
-        title: 'Large Language Models' + ' Hands-on Workshop Video',
-        description: 'Interactive workshop with practical exercises',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '9',
-        title: 'Large Language Models' + ' Industry Applications Video',
-        description: 'How this topic is used in various industries',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '10',
-        title: 'Large Language Models' + ' Future Trends Video',
-        description: 'Emerging trends and future developments',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '11',
-        title: 'Large Language Models' + ' Quick Start Guide Video',
-        description: 'Get started in under an hour',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        type: ResourceType.Video
-      },
-      {
-        id: '12',
-        title: 'Large Language Models' + ' Expert Panel Discussion Video',
-        description: 'Industry experts discuss challenges and solutions',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'https://www.youtube.com/watch?v=EWvNQjAaOHw',
         type: ResourceType.Video
       }
     ],
