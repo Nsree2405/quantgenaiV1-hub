@@ -756,7 +756,7 @@ export const topics: Topic[] = [
         title: 'Blueprint for a Scalable Photonic Fault-Tolerant Quantum Computer',
         authors: 'T. R. Tan et al.',
         year: '2020',
-        link: 'https://arxiv.org/abs/2010.02905',
+        link: 'https://arxiv.org/pdf/2010.02905',
         abstract: 'This paper outlines a blueprint for building a large-scale fault-tolerant quantum computer using photonic qubits.'
       }
     ],
