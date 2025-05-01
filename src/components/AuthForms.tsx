@@ -37,11 +37,15 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
     try {
       await login(email, password);
       toast({
-        title: "Welcome back!",
-        description: "You have successfully logged in.",
+        title: "Try Again!",
+        description: "You entered invalid details. Try signing up.",
       });
       
       if (onSuccess) {
+        toast({
+          title: "Welcome back!",
+          description: "You have successfully logged in.",
+        });
         onSuccess();
       } else {
         navigate('/dashboard');
