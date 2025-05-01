@@ -122,7 +122,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
           </div>
         </div>
         
-        <div className="flex items-center justify-between">
+        {/* <div className="flex items-center justify-between">
           <div className="flex items-center">
             <input
               id="remember-me"
@@ -138,7 +138,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
           <a href="#" className="text-sm font-medium text-quantum-500 hover:text-quantum-600">
             Forgot password?
           </a>
-        </div>
+        </div> */}
         
         <Button
           type="submit"

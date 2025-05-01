@@ -85,16 +85,16 @@ const SignUp = () => {
                         <strong className="text-gray-900 dark:text-white">Educational Resources</strong> - Premium courses, tutorials, and learning materials
                       </p>
                     </li>
-                    <li className="flex">
-                      <div className="flex-shrink-0">
-                        <svg className="h-6 w-6 text-quantum-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                      </div>
-                      <p className="ml-3 text-gray-600 dark:text-gray-400">
-                        <strong className="text-gray-900 dark:text-white">Community Access</strong> - Connect with like-minded technology enthusiasts
-                      </p>
-                    </li>
+                    {/* <li className="flex"> 
+                      <div className="flex-shrink-0"> 
+                        <svg className="h-6 w-6 text-quantum-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /> 
+                        </svg> 
+                      </div> 
+                      <p className="ml-3 text-gray-600 dark:text-gray-400"> 
+                        <strong className="text-gray-900 dark:text-white">Community Access</strong> - Connect with like-minded technology enthusiasts 
+                      </p> 
+                    </li> */}
                   </ul>
                 </div>
               </div>
