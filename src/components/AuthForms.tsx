@@ -42,10 +42,6 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
       // });
       
       if (onSuccess) {
-        toast({
-          title: "Welcome back!",
-          description: "You have successfully logged in.",
-        });
         onSuccess();
       } else {
         toast({
